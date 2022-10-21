@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-color: blanchedalmond;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.post {
+  border-bottom: 3px solid gray;
+  padding-bottom: 40px;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+}
+
+textarea {
+  box-sizing:border-box;
+}
+
+button {
+  padding: 0 20px;
+  cursor: pointer;
+  box-sizing: border-box;
+  -webkit-box-sizing:border-box;
+}
+
+button:hover {
+  opacity: 0.7;
+}
+
+
+.namearea {
+  display: -webkit-flex;
+  display: flex;
+}
+
+.username {
+  color: rgb(79, 150, 53);
+}
+
+.comment {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
